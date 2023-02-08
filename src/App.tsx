@@ -1,15 +1,10 @@
 import React, {
-  FormEventHandler,
-  MouseEventHandler,
-  useEffect,
   useState,
 } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
 const catIcon = require("./cat-icon.png");
 const dogIcon = require("./dog-icon.png");
-const birdIcon = require("./bird-icon.png");
 
 function useLocalStorage(key: any, initialValue: any): any {
   // State to store our value
