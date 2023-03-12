@@ -76,7 +76,7 @@ function App() {
 
       
 
-      <h2>Tasks</h2>
+      <h2>To-Do List</h2>
       <ul>
         {taskList.map((task: any, index: any) => (
           <li key={index}>
